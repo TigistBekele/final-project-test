@@ -1,0 +1,13 @@
+.container{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+}
+
+.task-card{
+    background-color: #f763ba;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}

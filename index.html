@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <form>
+                    <div>
+                        <label for="name">Task Name</label>
+                        <input type="text" id="task-name" name="task-name">
+                    </div>
+                    <div>
+                        <label for="description">Description</label>
+                        <input type="text" id="description" name="description">
+                    </div>
+                    <div>
+                        <label for="assignedTo">Assigned To</label>
+                        <input type="text" id="assigned-to" name="assigned-to">
+                    </div>
+                    <div>
+                        <label for="dueDate">Due Date</label>
+                        <input type="text" id="due-date" name="due-date">
+                    </div>
+                    <div>
+                        <label for="status">Status</label>
+                        <input type="text" id="status" name="status">
+                    </div> 
+                    <button type="button" id="submit-button">Submit</button>   
+                </form>
+            </div>
+        </main>
+        <section id="task-display">
+            <div class="task-card-display container">
+                <ul id="list-container">
+                    <!-- <li id="0" class="task-card">
+                        <div>Get Milk</div>
+                        <div>Task Description here</div>
+                        <div>Task Assigned to</div>
+                        <div>Task due date</div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+        <script type="text/javascript" src="js/taskManager.js" defer></script>
+        <script type="text/javascript" src="js/index.js" defer></script>
+    </body>
+</html>
